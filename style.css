@@ -1,0 +1,72 @@
+body{
+    font-family: "roboto";
+    font-size: 15px;
+    background-color: black;
+
+}
+.post{
+    
+    border: 10px;
+    border-radius: 1px;
+    border-color: black;
+    border-style: solid;
+    width: auto;
+    height: 700px;
+    
+}
+.post .header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    background-color: white;
+}
+.post .header .logo-html{
+    
+    
+    padding-right: 10px;
+    font-size:large
+    
+}
+.post .header .logo-elipse{
+    margin-left: auto;
+}
+
+.post .image{
+    background-color: red;
+    width: auto;
+    height: 60%;
+
+
+}
+.post .pie{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    
+    background-color: white;
+}
+.post .pie .header{
+    background-color: white;
+
+}
+.post .pie .header .mark{
+    margin-left: auto;
+}
+
+.post .pie .likes{
+    padding-left: 10px;
+    margin-right: auto;
+
+}
+.post .pie .descripcion{
+    padding-left: 10px;
+    border: 1px solid white;
+}
