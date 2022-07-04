@@ -11,11 +11,13 @@ body{
     border-radius: 1px;
     border-color: black;
     border-style: solid;
-    width: auto;
+    width: 500px;
+    
     height: 700px;
     
 }
 .post .header{
+    margin: 0 auto;
     width: 500px;
     height: 10%;
     display: flex;
@@ -37,13 +39,18 @@ body{
 }
 
 .post .image{
-    
-    width: auto;
-    height: 60%;
 
+    width: 100%;
+    height: auto;
+}
+.post .image img{
 
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
 }
 .post .pie{
+   margin: 0 auto;
     width: 500px;
     height: 40%;
     display: flex;
@@ -70,4 +77,9 @@ body{
 .post .pie .descripcion{
     padding-left: 10px;
     border: 1px solid white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
